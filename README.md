@@ -3,7 +3,7 @@
 
 ## Features
 - Real-time graphical view and editor
-- Add, remove or modify UI elements and logic components inside the UIWidgetBlueprint asset
+- Add, remove or modify UI elements of the widget easily and efficiently
 
 ## Usage
 Open a UIWidgetBlueprint asset and click on the toggle button on the top-right part of the asset editor to toggle on the graph editor of the UI widget.
