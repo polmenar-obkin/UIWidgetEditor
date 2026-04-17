@@ -1,0 +1,6 @@
+# VS folder
+.vs
+
+# build/debug folder
+[bB]in/
+[oO]bj/
