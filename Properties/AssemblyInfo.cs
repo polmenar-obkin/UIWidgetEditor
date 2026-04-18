@@ -22,6 +22,6 @@ using UIWidgetEditorPlugin;
 
 [assembly: PluginDisplayName("UI Widget Editor plugin")]
 [assembly: PluginAuthor("gabbaton")]
-[assembly: PluginVersion("1.0.0.1")]
+[assembly: PluginVersion("1.0.1.9")]
 
 [assembly: RegisterAssetDefinition("UIWidgetBlueprint", typeof(UIWidgetBlueprintAssetDefinition))]
