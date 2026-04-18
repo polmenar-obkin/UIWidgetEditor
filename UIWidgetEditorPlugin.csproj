@@ -41,6 +41,11 @@
   </Target>
   
   <ItemGroup>
+    <None Remove="Images\left-arrow-expand.png" />
+    <None Remove="Images\right-arrow-collapse.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <ProjectReference Include="..\..\FrostyPlugin\FrostyCore.csproj">
       <Private>false</Private>
     </ProjectReference>
@@ -50,7 +55,12 @@
   </ItemGroup>
   
   <ItemGroup>
+    <Resource Include="Images\left-arrow-expand.png" />
     <Resource Include="Images\UIWidgetIcon.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="Images\right-arrow-collapse.png" />
   </ItemGroup>
 
 </Project>

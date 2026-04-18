@@ -20,8 +20,8 @@ using UIWidgetEditorPlugin;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("4b612468-9b6a-4304-88a5-055c3575eb3d")]
 
-[assembly: PluginDisplayName("UI Widget Editor plugin")]
+[assembly: PluginDisplayName("UI Widget Editor Plugin")]
 [assembly: PluginAuthor("gabbaton")]
-[assembly: PluginVersion("1.0.1.9")]
+[assembly: PluginVersion("1.0.7.1")]
 
 [assembly: RegisterAssetDefinition("UIWidgetBlueprint", typeof(UIWidgetBlueprintAssetDefinition))]
