@@ -1,6 +1,9 @@
 # VS folder
 .vs
 
+# VS user generated project options
+*.user
+
 # build/debug folder
 [bB]in/
 [oO]bj/
