@@ -48,5 +48,9 @@
       <Private>false</Private>
     </ProjectReference>
   </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="Images\UIWidgetIcon.png" />
+  </ItemGroup>
 
 </Project>
