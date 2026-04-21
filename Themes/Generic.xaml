@@ -36,10 +36,12 @@
                                 </DockPanel>
                             </Border>
 
-                            <!-- Widget view -->
-                            <ctrls:FrostyDockablePanel Grid.Row="1" TitleBarVisible="False" Background="DarkSlateGray">
-
-                            </ctrls:FrostyDockablePanel>
+                            <Grid Grid.Row="1" x:Name="PART_WidgetViewGrid" ClipToBounds="True">
+                                <!-- Widget view -->
+                                <Viewbox x:Name="PART_WidgetViewBox" Margin="5">
+                                    
+                                </Viewbox>
+                            </Grid>
                         </Grid>
 
                         <GridSplitter x:Name="PART_GridSplitter" Grid.Column="1" Width="2" VerticalAlignment="Stretch" HorizontalAlignment="Center" Background="Black" Visibility="Hidden" />
